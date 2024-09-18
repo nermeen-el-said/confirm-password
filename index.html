@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <!-- FORM -->
+    <form class="form" action="" method="">
+        <!-- logo -->
+        <h1 class="log">Log In</h1>
+        <!-- user -->
+        <label class="one" >User Name</label>
+        <input class="input" type="text" placeholder="enter your username" required >
+        <!-- email -->
+        <label class="two" >Email</label>
+        <input class="input" type="email" placeholder="enter your email" required >
+        <!-- password-->
+        <label class="three" for="password" >Password</label>
+        <input class="input" type="password" placeholder="enter your password" required id="password" >
+        <!-- check password -->
+        <label class="four" for="check password">Check Password</label>
+        <input class="input" type="password" placeholder="check your  password" required  id="check password">
+        <!-- message -->
+        <p id="p"></p>
+        <!-- button -->
+        <button class="submit" type="submit"  onclick="confirmPassword ('p')" >Submit</button>
+    </form>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>

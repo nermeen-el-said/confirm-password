@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    }
+/* body */
+    body{
+        background-color:#7b466af5 ;
+    }
+/* FORM */
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    padding: 20px;
+    margin: 0  auto;
+    text-align: center;
+    margin-top: 70px;
+    border-radius: 40px;
+    background-color:#ba6e8f ;
+    box-shadow: 0 5px 15px #ba6e8f;
+}
+/* logo */
+.log{
+    font-size: 50px;
+    color: #5d3c64;
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+/* input */
+.form .input{
+    width: 100%;
+    height: 1.75rem;
+    font-size: 0.9rem;
+    padding: 5px;
+    border-radius:15px;
+    border: 2px solid #7b466ad0;
+    background: rgba(245, 245, 245, 0.705);
+    margin-top: -10px;
+}
+/* label */
+label{
+    padding: 1px;
+    font-weight: bold;
+    color:#5d3c64 ;
+    margin-top: -10px;
+}
+.one{
+    margin-right: 260px;
+}
+.two{
+    margin-right: 300px;
+}
+.three{
+    margin-right: 280px;
+}
+.four{
+    margin-right: 230px;
+}
+/* message */
+#p{
+    font-size: 20px;
+    color:#941b1b;
+    margin: 15px 0;
+    display: inline-block;
+}
+/* button */
+button{
+margin-left: 90px ;
+margin-top: -20px;
+width : 50% ;
+height: 2rem;
+font-weight: bold;
+border: 2px solid #7b466ad0;
+border-radius: 15px;
+background-color:#7b466ad0; 
+color: whitesmoke;
+cursor: pointer;
+box-shadow: 0 5px 15px #7b466ad0;
+}
+.form .submit:hover{
+    background-color: rgba(255, 134, 194, 0.438);
+    border: 2px solid;
+}
+/*  media */
+@media (max-width:404px) {
+    .form{
+    width: 300px;
+}
+.one{
+    margin-right: 180px;
+}
+.four{
+    margin-right: 140px;
+}
+button{
+    margin-left: 60px ;
+}
+}
